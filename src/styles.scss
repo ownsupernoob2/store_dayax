@@ -1,0 +1,167 @@
+body {
+  font-family: sans-serif;
+  font-size: 1em;
+  text-align: center;
+  background: slateblue;
+}
+
+.color_link {
+  color: white;
+}
+
+.mobile {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  background-color: cadetblue !important;
+  font-size: 16px;
+}
+
+img {
+  transition: 1s;
+  width: 100px;
+  height: 90px;
+  border-radius: 10%;
+}
+
+img:hover {
+  filter: grayscale(10%);
+  transform: scale(1.1);
+}
+th {
+  font-size: 2em;
+  background-color: cadetblue;
+}
+
+table {
+  background-color: white;
+  width: 60%;
+}
+
+td {
+  padding: 30px;
+}
+
+header{
+  background:url(https://cdn.rswebsols.com/wp-content/uploads/2018/04/computer-desk-job-laptop-note-technology-work.jpg);
+  height:100vh;
+  background-size:cover;
+  background-position:center;
+  opacity:.8
+}
+ul{
+  list-style-type:none;
+  float:right;
+  margin-top:25px;
+}
+ul li{
+  display:inline-block;
+}
+ul li a{
+  text-decoration:none;
+  color:rgb(226, 100, 17);
+  padding:5px 20px;
+  border:1px solid transparent;
+  border-radius:10px 5px 10px 5px;
+  transition:0.9s ease;
+}
+ul li a:hover{
+  background-color:rgb(255,223,0);
+  color:rgb(114, 53, 114)
+}
+.logo img{
+  float:left;
+  width: 78px;
+  height:auto;
+  
+}
+.main{
+  max-width:120000000000000px;
+  margin:auto;
+}
+ul li.active a{
+  background-color:rgb(255,223,0);
+  color:rgb(128,0,128)
+}
+.title{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%)
+  
+}
+.title h1{
+  color:rgb(255,223,0);
+  font-size: 40px;
+}
+.button{
+  position:absolute;
+  top:72%;
+  left:50%;
+  transform:translate(-50%,-50%)
+}
+.btn{
+  border:1px solid transparent;
+  padding:10px 30px;
+  background:rgb(31, 216, 14);
+  border-radius:10px 5px 10px 5px;
+  color:rgb(255,223,0);
+  text-decoration:none;
+  font-size:22px;
+  transition:0.9s ease;
+}
+.btn:hover{
+  background-color:rgb(255,223,0);
+  color:salmon;
+}
+.footer{
+  position:absolute;
+  top:92%;
+  left:43%;
+  color:rgb(255,223,0);
+  border:1px solid transparent;
+  background:transparent;
+  border-radius:10px 5px 1px 5px
+}
+.footer:hover{
+  background-color:rgb(255,223,0);
+  color:#000;
+  transition:0.9s ease;
+}
+.footer a{
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  font-size:18px
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: cornflowerblue;
+}
+
+.chatbox {
+  width: 500px;
+  min-width: 390px;
+  height: 600px;
+  background: #fff;
+  padding: 25px;
+  margin: 20px auto;
+  box-shadow: 0 3px #ccc;
+}
+.chatlogs {
+  padding: 10px;
+  width: 100%;
+  height: 450px;
+  background: #eee;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.chatlogs::-webkit-scrollbar {
+  width: 10px;
+}
